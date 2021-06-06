@@ -1,0 +1,26 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block-start: 200px;
+  margin-block-end: 200px;
+  align-items: center;
+}
+
+.info p {
+  max-inline-size: 900px;
+  margin: 0;
+  font: var(--textOxygen);
+  text-align: center;
+}
+
+.info h5 {
+  font: var(--headline5);
+  margin: 0;
+}
+
+.info img {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
