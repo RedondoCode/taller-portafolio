@@ -25,3 +25,30 @@
 .hero-social {
   padding-block-end: 1.5rem;
 }
+
+
+@media screen and (min-width: 768px) {
+  .hero {
+    border: 1px solid red;
+    display: flex;
+    gap: 32px;
+  }
+
+  .hero-description {
+    max-inline-size: 450px;
+  }
+
+  .hero-image {
+    order: 2;
+    flex: 1;
+    text-align: end;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    inline-size: 500px;
+    block-size: 504px;
+  }
+}
