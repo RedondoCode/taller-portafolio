@@ -20,6 +20,9 @@
   --caption: 12px/19px var(--fontBase);
   --fontOxygen: 'Oxygen', sans-serif;
   --textOxygen: 34px/55px var(--fontOxygen);
+  --textOxygenBold: bold 16px/25px var(--fontOxygen);
+  --textOxygenBoldBigger: bold 34px/55px var(--fontOxygen);
+  --textPoppinsRegular: 24px/39px var(--fontBase);
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
   --purple: #310A90;
   --green: #42E2B8;

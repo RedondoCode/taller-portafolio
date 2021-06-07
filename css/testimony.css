@@ -1,0 +1,47 @@
+.testimony {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.testimony img {
+  width: 64px;
+  height: 64px;
+}
+
+.testimony p {
+  font: var(--textOxygenBold);
+  margin: 0;
+}
+
+.testimony span {
+  font: var(--caption);
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .testimony {
+    margin: 90px auto;
+    padding: 90px;
+  }
+
+  .testimony p {
+    font: var(--textOxygenBoldBigger);
+    text-align: center;
+  }
+
+  .testimony img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimony span {
+    font: var(--headline5);
+  }
+}
